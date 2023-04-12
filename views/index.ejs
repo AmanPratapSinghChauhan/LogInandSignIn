@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalUI</title>
+
+   <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- Bootstarp CSS link -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="whole-body">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand mb-0 h1 fs-2" href="#">
+                <img src="logo.png" alt="" width="50" height="50" class="d-inline-block align-text-top">
+                RoyalUI</a>
+              <div class="container1">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <form class="d-flex Search">
+                <input class="form-control me-3 mb-0 fs-0" type="search" placeholder="Search" aria-label="Search">
+                
+              </form>
+              <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="<%=href%>"><%=userName%></a>
+                  </li>
+                </ul>
+                <button style="display:<%=accstatus%>;"><a href="/logout">Logout</a>
+                    </button>
+              </div>
+            </div>
+          </nav>
+
+    </div>
+    <div class="left-body">
+        <div class="left-part">
+            <a href="#"><span></span> </a>
+            <a href="#"><span>UI Elements</span> </a>
+            <a href="#"><span>Form Elements</span> </a>
+            <a href="#"><span>Charts</span> </a>
+            <a href="#"><span>Tables</span> </a>
+            <a href="#"><span>Icons</span> </a>
+            <a href="#"><span>User Pages</span> </a>
+            <a href="#"><span>Documentation</span> </a>
+        </div>
+        <div class="right-part">
+            <div class="head-but mt-4 mb-4">
+            <h4>RoyalUI Dashboard</h4>
+            <button>Report</button>
+            </div>
+            <div class="container">
+            <div class="sales">
+                <p>Sales</p>
+                <h2>34040</h2>
+                <p>0.12% (30 days)</p>
+            </div>
+            <div class="revenue">
+               <p>revenue</p>
+               <h2>47033</h2>
+               <p>0.47% (30 days)</p>
+            </div>
+            <div class="downloads">
+                <p>Downloads</p>
+                <h2>40016</h2>
+                <p>64.00% (30 days)</p>
+            </div>
+            <div class="returns">
+                <p>Returns</p>
+                <h2>61344</h2>
+                <p>23.00% (30 days)</p>
+
+            </div>
+        </div>
+        <div class="graphs">
+            <div>
+                <img src="graph.png" alt="" height="300px" width="430px">
+
+            </div>
+            <div>
+                <img src="purchase.png" alt="" height="300px" width="430px">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<script type="text/Javascript" src="index.js">
+
+</script>
+</body>
+</html>
